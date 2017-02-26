@@ -1,0 +1,33 @@
+
+<p class="story" style="text-align: right">
+"Нельзя лишить вас возможности выбора. <br>
+Его можно проигнорировать или пренебречь им. <br>
+Но если вы сделаете выбор, это может все изменить. "<br>
+― Стив Гудиер
+</p>
+
+<p>
+    У вас есть гистограмма. Попробуйте найти размер самого большого прямоугольника, который можно построить из столбцов гистограммы.
+</p>
+
+<p style="text-align: center;"><img src="{{MEDIA}}schema.png" style="max-height: 334px">
+
+<p><strong>Входные данные: </strong>Список высот всех столбцов в гистограмме.</p>
+
+<p><strong>Выходные данные: </strong>Площадь самого большого прямоугольника.</p>
+    <p><strong>Примеры:</strong></p>
+<pre class="brush: python">{% if interpreter.slug == "js-node" %}
+//coming...
+{% else %}
+largest_histogram([5]) == 5
+largest_histogram([5, 3]) == 6
+largest_histogram([1, 1, 4, 1]) == 4
+largest_histogram([1, 1, 3, 1]) == 4
+largest_histogram([2, 1, 4, 5, 1, 3, 3]) == 8
+{% endif %}</pre>
+
+<p><strong>Зачем это надо: </strong>Сложно найти применение этой задаче в реальной жизни. Просто получите удовольствие.</p>
+
+<p><strong>Предусловия:</strong><br>
+    0 &lt; len(data) &lt; 1000<br>
+</p>

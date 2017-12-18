@@ -138,7 +138,7 @@ TESTS = {
             ],
         },
         {
-            "answer": 832, 
+            "answer": 999, #999 is correct because it's a rectangle 1x999 and it's more than 832
             "input": 
             [
                 70, 60, 67, 78, 89, 87, 74, 40, 100, 24, 

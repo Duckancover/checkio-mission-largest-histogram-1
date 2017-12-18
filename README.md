@@ -1,4 +1,4 @@
 checkio-task-largest-histogram
 =====================
 
-Checkio task "Largest histogram"
+Checkio task "Largest Rectangle in a Histogram"

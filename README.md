@@ -1,4 +1,4 @@
-checkio-task-non-unique-elements
+checkio-task-largest-histogram
 =====================
 
-Checkio task "Non Unique Elements"
+Checkio task "Largest histogram"
